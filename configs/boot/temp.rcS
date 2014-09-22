@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#initialize myDevice only once
+if [ "${RUNSCRIPT_VAR+set}" != set ]
+then
+	export RUNSCRIPT_VAR=1
+
+	#Apply device driver
+	
+	cd /home/gem5
+	insmod myDevice.ko
+	echo "This is to clear device" > /dev/chdev
+	
+	cd
+
+fi
+
+
+#input the temperature value in celcius 
+#echo -n '80' >> /dev/chdev 
+#cat /dev/chdev
+#If necessary, seconds between temperature checks 
+#sleep 10 
+
+#recursively read this temp.rcS file
+#/sbin/m5 readfile > /tmp/runscript 
+#chmod 755 /tmp/runscript 
+#exec /tmp/runscript &
+
+#Exit back to script
+/bin/bash
+
+

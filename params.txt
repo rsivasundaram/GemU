@@ -1,0 +1,29 @@
+#Keep in this order
+#Frequency
+1000000000
+#temp in celcius
+80.000000
+#supply voltage
+1.000000
+#dynamic power multiplier
+0.000160
+#nominal value 10.7
+1.528008
+#nominal value 0.605
+0.639167
+#leakage power multiplier
+0.067749
+#nominal value -9210
+-9210.000000
+#nominal value 890
+890.000000
+#nominal value 0.1
+0.200000
+#nominal value 0.232
+0.232000
+#pmos threshold degredation
+0.000000
+#1 or 0 for upper/lower bound for aging
+1.000000
+#new Vdd scalar to compensate for aging
+1.000000

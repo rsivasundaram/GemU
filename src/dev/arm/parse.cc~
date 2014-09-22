@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include "dev/arm/power.hh"
+
+void parse(
+{
+	FILE * pFile;
+	double val;
+	char *temp;
+	uint8_t count=0;
+	int temp=0;
+	pFile = fopen("dev/arm/params.txt", "r");
+	while (fscanf (pFile, "%lf",&val) == 1){
+		vemu_pm_change_parameter(1, count, val);
+		count++;
+	}
+	int fd = open("/dev/chdev", O_RDONLY);
+	if (fd >=0){
+		read(fd, temp ,sizeof(double));	
+		close(fd);	
+		vemu_pm_change_parameter(1, 0, atof(x));
+	}
+}

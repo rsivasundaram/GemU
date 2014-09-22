@@ -1,0 +1,35 @@
+#ifndef __count_HH__
+#define __count_HH__
+
+
+#include "dev/io_device.hh"
+#include "params/count.hh"
+#include "dev/myDevice.hh"
+
+union Data
+	{
+		uint32_t low;
+		float power_slp;
+};
+
+class count : public myDevice
+{
+
+	private:
+		std::string devname;
+	public:
+		typedef countParams Params;	
+		const Params *
+		params() const
+		{
+			return dynamic_cast<const Params *> (_params);
+		}
+		count(const Params *p);
+		//int *ptr;
+		virtual Tick read(PacketPtr pkt);
+		virtual Tick write(PacketPtr pkt);
+		AddrRangeList getAddrRanges() const;
+	
+};
+
+#endif //__count_HH__

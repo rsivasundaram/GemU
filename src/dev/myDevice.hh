@@ -1,0 +1,28 @@
+#ifndef __myDevice_HH__
+#define __myDevice_HH__
+
+
+#include "dev/io_device.hh"
+#include "params/myDevice.hh"
+
+class myDevice : public BasicPioDevice
+{
+
+	private:
+		std::string devname;
+	public:
+		typedef myDeviceParams Params;
+		myDevice(const Params *p, Addr pio_size);
+	
+	
+		const Params *
+		params() const
+		{
+			return dynamic_cast<const Params *> (_params);
+		}
+	
+		//int *ptr;
+		
+};
+
+#endif //__myDevice_HH__
