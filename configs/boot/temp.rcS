@@ -6,7 +6,7 @@ then
 	export RUNSCRIPT_VAR=1
 
 	#Apply device driver
-	
+	#The location of the device driver
 	cd /home/gem5
 	insmod myDevice.ko
 	echo "This is to clear device" > /dev/chdev
@@ -16,13 +16,13 @@ then
 fi
 
 
-#input the temperature value in celcius 
+#If you want something to happen every n seconds, specify it below 
 #echo -n '80' >> /dev/chdev 
 #cat /dev/chdev
-#If necessary, seconds between temperature checks 
-#sleep 10 
+#If necessary, seconds between checks 
+#sleep n (replace n with the number of seconds you'd like) 
 
-#recursively read this temp.rcS file
+#If you'd like to recursively read this temp.rcS file, uncomment the next 3 lines.
 #/sbin/m5 readfile > /tmp/runscript 
 #chmod 755 /tmp/runscript 
 #exec /tmp/runscript &
