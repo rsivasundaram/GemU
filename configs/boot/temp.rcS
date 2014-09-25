@@ -6,7 +6,7 @@ then
 	export RUNSCRIPT_VAR=1
 
 	#Apply device driver
-	
+	#The location of the device driver
 	cd /home/gem5
 	insmod myDevice.ko
 	echo "This is to clear device" > /dev/chdev
