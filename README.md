@@ -26,7 +26,7 @@ To run:```build/ARM/gem5.opt configs/example/fs.py --disk-image=/path/to/image -
 
 To connect to the simualtion, see: http://www.m5sim.org/M5term
 
-Power Modeling:
+**Power Modeling:**
 Once the simulation is up and running, echo any of the following commands to /dev/chdev (case-sensitive):
 
 "sleep power" (gives resting power)
@@ -43,5 +43,5 @@ Ex: ```echo "sleep power" > /dev/chdev```
 
 To recieve the value of the command you input, enter ```cat /dev/chdev``` 
 
-Fault Injection:
+**Fault Injection:**
 To see an example of a program utilizing the fault injection, look at faults/test.cc
