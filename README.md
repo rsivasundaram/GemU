@@ -45,3 +45,6 @@ To recieve the value of the command you input, enter ```cat /dev/chdev```
 
 **Fault Injection:**
 To see an example of a program utilizing the fault injection, look at faults/test.cc
+
+For additional information about GemU, check out: 
+  https://drive.google.com/file/d/0B1fHBX8DZ3PZV0pmbXVmMjQzUVk/view?usp=sharing
