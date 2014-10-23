@@ -192,7 +192,7 @@ if len(bm) == 2:
     drive_sys.voltage_domain = VoltageDomain(voltage = options.sys_voltage)
 
     # Create a source clock for the system and set the clock period
-    drive_sys.clk_domain = SrcClockDomain(clock =  options.sys_clock)
+    drive_sys.clk_domain = SrcClockDomain(clock =  options.sys_clock, voltage_domain = drive_sys.voltage_domain)
 
     # Create a CPU voltage domain
     drive_sys.cpu_voltage_domain = VoltageDomain()
