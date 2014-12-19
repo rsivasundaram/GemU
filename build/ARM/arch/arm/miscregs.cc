@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/arm/miscregs.cc
+/home/ram/test/src/arch/arm/miscregs.cc

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/simple/BaseSimpleCPU.py
+/home/ram/test/src/cpu/simple/BaseSimpleCPU.py

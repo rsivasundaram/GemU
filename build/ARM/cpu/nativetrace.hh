@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/nativetrace.hh
+/home/ram/test/src/cpu/nativetrace.hh

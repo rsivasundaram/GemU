@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/simple_thread.hh
+/home/ram/test/src/cpu/simple_thread.hh

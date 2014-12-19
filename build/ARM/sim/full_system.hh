@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/full_system.hh
+/home/ram/test/src/sim/full_system.hh

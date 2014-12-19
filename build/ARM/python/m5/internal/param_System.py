@@ -106,6 +106,7 @@ class SystemParams(m5.internal.param_MemObject.MemObjectParams):
     kernel = _swig_property(_param_System.SystemParams_kernel_get, _param_System.SystemParams_kernel_set)
     cache_line_size = _swig_property(_param_System.SystemParams_cache_line_size_get, _param_System.SystemParams_cache_line_size_set)
     mem_mode = _swig_property(_param_System.SystemParams_mem_mode_get, _param_System.SystemParams_mem_mode_set)
+    portNum = _swig_property(_param_System.SystemParams_portNum_get, _param_System.SystemParams_portNum_set)
     work_end_ckpt_count = _swig_property(_param_System.SystemParams_work_end_ckpt_count_get, _param_System.SystemParams_work_end_ckpt_count_set)
     boot_osflags = _swig_property(_param_System.SystemParams_boot_osflags_get, _param_System.SystemParams_boot_osflags_set)
     memories = _swig_property(_param_System.SystemParams_memories_get, _param_System.SystemParams_memories_set)

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/arm/ArmISA.py
+/home/ram/test/src/arch/arm/ArmISA.py

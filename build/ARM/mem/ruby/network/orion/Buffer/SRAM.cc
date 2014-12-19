@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/network/orion/Buffer/SRAM.cc
+/home/ram/test/src/mem/ruby/network/orion/Buffer/SRAM.cc

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/base/stats/output.hh
+/home/ram/test/src/base/stats/output.hh

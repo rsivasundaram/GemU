@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/checker/cpu.hh
+/home/ram/test/src/cpu/checker/cpu.hh

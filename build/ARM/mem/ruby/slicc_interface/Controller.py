@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/slicc_interface/Controller.py
+/home/ram/test/src/mem/ruby/slicc_interface/Controller.py

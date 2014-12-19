@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/faults.cc
+/home/ram/test/src/sim/faults.cc

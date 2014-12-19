@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/arm/nativetrace.cc
+/home/ram/test/src/arch/arm/nativetrace.cc

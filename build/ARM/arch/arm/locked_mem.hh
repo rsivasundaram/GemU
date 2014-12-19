@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/arm/locked_mem.hh
+/home/ram/test/src/arch/arm/locked_mem.hh

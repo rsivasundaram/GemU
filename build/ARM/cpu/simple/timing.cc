@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/simple/timing.cc
+/home/ram/test/src/cpu/simple/timing.cc

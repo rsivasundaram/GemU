@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/network/orion/OrionConfig.hh
+/home/ram/test/src/mem/ruby/network/orion/OrionConfig.hh

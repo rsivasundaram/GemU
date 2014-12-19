@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/cache/prefetch/ghb.hh
+/home/ram/test/src/mem/cache/prefetch/ghb.hh

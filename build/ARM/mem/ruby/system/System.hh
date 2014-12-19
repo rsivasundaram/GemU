@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/system/System.hh
+/home/ram/test/src/mem/ruby/system/System.hh

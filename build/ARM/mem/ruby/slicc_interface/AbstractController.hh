@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/slicc_interface/AbstractController.hh
+/home/ram/test/src/mem/ruby/slicc_interface/AbstractController.hh

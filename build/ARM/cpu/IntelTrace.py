@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/IntelTrace.py
+/home/ram/test/src/cpu/IntelTrace.py

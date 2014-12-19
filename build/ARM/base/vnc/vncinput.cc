@@ -1,1 +1,1 @@
-/home/ram/gem5/src/base/vnc/vncinput.cc
+/home/ram/test/src/base/vnc/vncinput.cc

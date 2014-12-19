@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/IntrControl.py
+/home/ram/test/src/cpu/IntrControl.py

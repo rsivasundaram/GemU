@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/alpha/process.hh
+/home/ram/test/src/arch/alpha/process.hh

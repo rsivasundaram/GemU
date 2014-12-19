@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/mips/process.hh
+/home/ram/test/src/arch/mips/process.hh

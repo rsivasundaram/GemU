@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/sinicreg.hh
+/home/ram/test/src/dev/sinicreg.hh

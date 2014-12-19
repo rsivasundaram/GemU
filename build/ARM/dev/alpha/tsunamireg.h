@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/alpha/tsunamireg.h
+/home/ram/test/src/dev/alpha/tsunamireg.h

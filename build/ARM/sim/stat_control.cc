@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/stat_control.cc
+/home/ram/test/src/sim/stat_control.cc

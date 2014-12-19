@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/system/RubyPortProxy.hh
+/home/ram/test/src/mem/ruby/system/RubyPortProxy.hh

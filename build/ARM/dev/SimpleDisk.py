@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/SimpleDisk.py
+/home/ram/test/src/dev/SimpleDisk.py

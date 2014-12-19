@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/DiskImage.py
+/home/ram/test/src/dev/DiskImage.py

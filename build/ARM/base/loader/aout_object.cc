@@ -1,1 +1,1 @@
-/home/ram/gem5/src/base/loader/aout_object.cc
+/home/ram/test/src/base/loader/aout_object.cc

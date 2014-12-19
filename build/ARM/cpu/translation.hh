@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/translation.hh
+/home/ram/test/src/cpu/translation.hh

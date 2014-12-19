@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/alpha/ipr.hh
+/home/ram/test/src/arch/alpha/ipr.hh

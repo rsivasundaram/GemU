@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/network/simple/Throttle.hh
+/home/ram/test/src/mem/ruby/network/simple/Throttle.hh

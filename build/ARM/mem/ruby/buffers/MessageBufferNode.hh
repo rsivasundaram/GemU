@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/buffers/MessageBufferNode.hh
+/home/ram/test/src/mem/ruby/buffers/MessageBufferNode.hh

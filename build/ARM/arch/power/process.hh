@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/power/process.hh
+/home/ram/test/src/arch/power/process.hh

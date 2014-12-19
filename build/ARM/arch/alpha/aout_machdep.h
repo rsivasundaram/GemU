@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/alpha/aout_machdep.h
+/home/ram/test/src/arch/alpha/aout_machdep.h

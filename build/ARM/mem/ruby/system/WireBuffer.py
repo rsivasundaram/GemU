@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/system/WireBuffer.py
+/home/ram/test/src/mem/ruby/system/WireBuffer.py

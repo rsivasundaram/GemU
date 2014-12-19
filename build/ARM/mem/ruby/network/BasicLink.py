@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/network/BasicLink.py
+/home/ram/test/src/mem/ruby/network/BasicLink.py

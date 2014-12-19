@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/network/fault_model/FaultModel.py
+/home/ram/test/src/mem/ruby/network/fault_model/FaultModel.py

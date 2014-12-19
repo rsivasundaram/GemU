@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/VoltageDomain.py
+/home/ram/test/src/sim/VoltageDomain.py

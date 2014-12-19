@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/testers/directedtest/RubyDirectedTester.py
+/home/ram/test/src/cpu/testers/directedtest/RubyDirectedTester.py

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/isa_parser.py
+/home/ram/test/src/arch/isa_parser.py

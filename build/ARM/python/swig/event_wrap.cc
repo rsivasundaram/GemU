@@ -3322,29 +3322,6 @@ SWIG_From_short  (short value)
 
 
 SWIGINTERN int
-SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
-{
-  unsigned long v;
-  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v > UINT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< unsigned int >(v);
-    }
-  }  
-  return res;
-}
-
-
-SWIGINTERNINLINE PyObject*
-  SWIG_From_unsigned_SS_int  (unsigned int value)
-{
-  return PyInt_FromSize_t((size_t) value);
-}
-
-
-SWIGINTERN int
 SWIG_AsVal_long (PyObject *obj, long* val)
 {
   if (PyInt_Check(obj)) {
@@ -3380,6 +3357,52 @@ SWIG_AsVal_long (PyObject *obj, long* val)
   }
 #endif
   return SWIG_TypeError;
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_int (PyObject * obj, int *val)
+{
+  long v;
+  int res = SWIG_AsVal_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v < INT_MIN || v > INT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< int >(v);
+    }
+  }  
+  return res;
+}
+
+
+SWIGINTERNINLINE PyObject*
+  SWIG_From_int  (int value)
+{
+  return PyInt_FromLong((long) value);
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v > UINT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< unsigned int >(v);
+    }
+  }  
+  return res;
+}
+
+
+SWIGINTERNINLINE PyObject*
+  SWIG_From_unsigned_SS_int  (unsigned int value)
+{
+  return PyInt_FromSize_t((size_t) value);
 }
 
 
@@ -3584,29 +3607,6 @@ SWIG_AsVal_signed_SS_char (PyObject * obj, signed char *val)
       return SWIG_OverflowError;
     } else {
       if (val) *val = static_cast< signed char >(v);
-    }
-  }  
-  return res;
-}
-
-
-SWIGINTERNINLINE PyObject*
-  SWIG_From_int  (int value)
-{
-  return PyInt_FromLong((long) value);
-}
-
-
-SWIGINTERN int
-SWIG_AsVal_int (PyObject * obj, int *val)
-{
-  long v;
-  int res = SWIG_AsVal_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v < INT_MIN || v > INT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< int >(v);
     }
   }  
   return res;
@@ -3842,6 +3842,29 @@ SWIGINTERN PyObject *Swig_var_InvalidPortID_get(void) {
   PyObject *pyobj = 0;
   
   pyobj = SWIG_From_short(static_cast< short >(InvalidPortID));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_portNumber_set(PyObject *_val) {
+  {
+    int val;
+    int res = SWIG_AsVal_int(_val, &val);
+    if (!SWIG_IsOK(res)) {
+      SWIG_exception_fail(SWIG_ArgError(res), "in variable '""portNumber""' of type '""int""'");
+    }
+    portNumber = static_cast< int >(val);
+  }
+  return 0;
+fail:
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_portNumber_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_int(static_cast< int >(portNumber));
   return pyobj;
 }
 
@@ -6301,6 +6324,7 @@ SWIG_init(void) {
   SWIG_addvarlink(SWIG_globals(),(char*)"MaxAddr",Swig_var_MaxAddr_get, Swig_var_MaxAddr_set);
   SWIG_addvarlink(SWIG_globals(),(char*)"InvalidThreadID",Swig_var_InvalidThreadID_get, Swig_var_InvalidThreadID_set);
   SWIG_addvarlink(SWIG_globals(),(char*)"InvalidPortID",Swig_var_InvalidPortID_get, Swig_var_InvalidPortID_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"portNumber",Swig_var_portNumber_get, Swig_var_portNumber_set);
   SWIG_addvarlink(SWIG_globals(),(char*)"simQuantum",Swig_var_simQuantum_get, Swig_var_simQuantum_set);
   SWIG_addvarlink(SWIG_globals(),(char*)"numMainEventQueues",Swig_var_numMainEventQueues_get, Swig_var_numMainEventQueues_set);
   SWIG_addvarlink(SWIG_globals(),(char*)"mainEventQueue",Swig_var_mainEventQueue_get, Swig_var_mainEventQueue_set);

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/testers/networktest/NetworkTest.py
+/home/ram/test/src/cpu/testers/networktest/NetworkTest.py

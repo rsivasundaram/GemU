@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/network/orion/ConfigFile.cc
+/home/ram/test/src/mem/ruby/network/orion/ConfigFile.cc

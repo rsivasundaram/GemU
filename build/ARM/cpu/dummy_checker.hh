@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/dummy_checker.hh
+/home/ram/test/src/cpu/dummy_checker.hh

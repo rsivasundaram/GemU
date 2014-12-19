@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/ide_atareg.h
+/home/ram/test/src/dev/ide_atareg.h

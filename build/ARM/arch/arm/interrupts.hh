@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/arm/interrupts.hh
+/home/ram/test/src/arch/arm/interrupts.hh

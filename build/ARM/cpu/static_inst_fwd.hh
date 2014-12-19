@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/static_inst_fwd.hh
+/home/ram/test/src/cpu/static_inst_fwd.hh

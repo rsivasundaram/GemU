@@ -1,4 +1,4 @@
-// Auto generated C++ code started by /home/ram/gem5/src/mem/slicc/symbols/StateMachine.py:1058
+// Auto generated C++ code started by /home/ram/test/src/mem/slicc/symbols/StateMachine.py:1058
 // Directory: Directory protocol
 
 #include <sys/types.h>

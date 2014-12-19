@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/NativeTrace.py
+/home/ram/test/src/cpu/NativeTrace.py

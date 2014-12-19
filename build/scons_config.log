@@ -1,4 +1,4 @@
-file /home/ram/gem5/SConstruct,line 824:
+file /home/ram/test/SConstruct,line 824:
 	Configure(confdir = build/.scons_config)
 scons: Configure: Checking for leading underscore in global variables...
 scons: Configure: "build/.scons_config/conftest_0.c" is up to date.

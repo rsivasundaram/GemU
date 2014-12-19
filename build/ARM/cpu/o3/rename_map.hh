@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/o3/rename_map.hh
+/home/ram/test/src/cpu/o3/rename_map.hh

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/generic/types.hh
+/home/ram/test/src/arch/generic/types.hh

@@ -37,6 +37,11 @@
 #include <string>
 #include <vector>
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
 #include "base/hashmap.hh"
 #include "base/misc.hh"
 #include "base/trace.hh"
@@ -44,10 +49,18 @@
 #include "debug/Config.hh"
 #include "sim/core.hh"
 #include "sim/eventq_impl.hh"
+#include "sim/eventq.hh"
 
 using namespace std;
 
 Tick simQuantum = 0;
+
+//Variables needed for server socket
+int sockfd=-1, newsockfd, portno;
+socklen_t clilen;
+char buffer[1];
+struct sockaddr_in serv_addr, cli_addr;
+int n;
 
 //
 // Main Event Queues
@@ -223,6 +236,38 @@ EventQueue::serviceOne()
     if (!event->squashed()) {
         // forward current cycle to the time when this event occurs.
         setCurTick(event->when());
+	
+	//Socket functionality
+	if (sockfd == -1 && portNumber!=1){
+	     sockfd = socket(AF_INET, SOCK_STREAM, 0);
+	     if (sockfd < 0) 
+	        	printf("ERROR opening socket");
+	     bzero((char*) &serv_addr, sizeof(serv_addr));
+	    
+	     portno = portNumber;
+	     serv_addr.sin_family = AF_INET;
+	     serv_addr.sin_addr.s_addr = INADDR_ANY;
+	     serv_addr.sin_port = htons(portno);
+	     if (bind(sockfd, (struct sockaddr *) &serv_addr,
+	              sizeof(serv_addr)) < 0) 
+	              printf("ERROR on binding");
+	    
+	     listen(sockfd,5);
+	   	
+	     clilen = sizeof(cli_addr);
+	     newsockfd = accept(sockfd, 
+	                 (struct sockaddr *) &cli_addr, 
+	                 &clilen);
+	     if (newsockfd < 0) 
+	         printf("ERROR on accept");
+	}
+	
+	if (portNumber!=1){
+		bzero(buffer,1);	
+     		n = read(newsockfd,buffer,1);
+	}
+
+
 
         event->process();
         if (event->isExitEvent()) {

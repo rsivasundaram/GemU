@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/sparc/linux/linux.hh
+/home/ram/test/src/arch/sparc/linux/linux.hh

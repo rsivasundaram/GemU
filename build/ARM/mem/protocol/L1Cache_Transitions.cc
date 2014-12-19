@@ -1,4 +1,4 @@
-// Auto generated C++ code started by /home/ram/gem5/src/mem/slicc/symbols/StateMachine.py:1151
+// Auto generated C++ code started by /home/ram/test/src/mem/slicc/symbols/StateMachine.py:1151
 // L1Cache: MI Example L1 Cache
 
 #include <cassert>

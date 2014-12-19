@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/ns_gige.hh
+/home/ram/test/src/dev/ns_gige.hh

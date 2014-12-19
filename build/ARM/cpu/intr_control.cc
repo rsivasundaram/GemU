@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/intr_control.cc
+/home/ram/test/src/cpu/intr_control.cc

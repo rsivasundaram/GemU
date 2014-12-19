@@ -14,6 +14,8 @@ class System;
 #include <cstddef>
 #include "base/types.hh"
 #include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
 #include <string>
 #include <vector>
 #include "params/AbstractMemory.hh"
@@ -53,6 +55,7 @@ struct SystemParams
     std::string kernel;
     unsigned cache_line_size;
     Enums::MemoryMode mem_mode;
+    int portNum;
     Counter work_end_ckpt_count;
     std::string boot_osflags;
     std::vector< AbstractMemory * > memories;

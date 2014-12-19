@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/simple/TimingSimpleCPU.py
+/home/ram/test/src/cpu/simple/TimingSimpleCPU.py

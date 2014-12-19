@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/testers/memtest/memtest.cc
+/home/ram/test/src/cpu/testers/memtest/memtest.cc

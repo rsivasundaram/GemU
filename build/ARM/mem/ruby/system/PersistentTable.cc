@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/system/PersistentTable.cc
+/home/ram/test/src/mem/ruby/system/PersistentTable.cc

@@ -14,6 +14,8 @@
 #include <cstddef>
 #include "base/types.hh"
 #include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
 #include <string>
 #include <vector>
 #include "params/AbstractMemory.hh"
@@ -61,6 +63,8 @@ using std::ptrdiff_t;
 %import "stdint.i"
 %import "base/types.hh"
 %import "python/m5/internal/enum_MemoryMode.i"
+%import "stdint.i"
+%import "base/types.hh"
 %import "stdint.i"
 %import "base/types.hh"
 %include "std_string.i"

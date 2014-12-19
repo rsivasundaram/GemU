@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/SimpleDRAM.py
+/home/ram/test/src/mem/SimpleDRAM.py

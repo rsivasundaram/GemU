@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/recorder/CacheRecorder.hh
+/home/ram/test/src/mem/ruby/recorder/CacheRecorder.hh

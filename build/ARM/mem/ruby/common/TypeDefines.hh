@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/common/TypeDefines.hh
+/home/ram/test/src/mem/ruby/common/TypeDefines.hh

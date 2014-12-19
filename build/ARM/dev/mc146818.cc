@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/mc146818.cc
+/home/ram/test/src/dev/mc146818.cc

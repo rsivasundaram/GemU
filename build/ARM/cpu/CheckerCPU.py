@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/CheckerCPU.py
+/home/ram/test/src/cpu/CheckerCPU.py

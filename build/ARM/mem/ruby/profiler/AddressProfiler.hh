@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/profiler/AddressProfiler.hh
+/home/ram/test/src/mem/ruby/profiler/AddressProfiler.hh

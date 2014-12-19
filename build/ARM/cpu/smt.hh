@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/smt.hh
+/home/ram/test/src/cpu/smt.hh

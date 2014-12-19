@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/alpha/osfpal.hh
+/home/ram/test/src/arch/alpha/osfpal.hh

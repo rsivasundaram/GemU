@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/init.cc
+/home/ram/test/src/sim/init.cc

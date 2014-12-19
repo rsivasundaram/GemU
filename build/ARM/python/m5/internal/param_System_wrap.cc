@@ -3086,6 +3086,8 @@ namespace swig {
 #include <cstddef>
 #include "base/types.hh"
 #include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
 #include <string>
 #include <vector>
 #include "params/AbstractMemory.hh"
@@ -5175,6 +5177,58 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_SystemParams_portNum_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  SystemParams *arg1 = (SystemParams *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"SystemParams_portNum_set",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_SystemParams, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SystemParams_portNum_set" "', argument " "1"" of type '" "SystemParams *""'"); 
+  }
+  arg1 = reinterpret_cast< SystemParams * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "SystemParams_portNum_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  if (arg1) (arg1)->portNum = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_SystemParams_portNum_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  SystemParams *arg1 = (SystemParams *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"SystemParams_portNum_get",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_SystemParams, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "SystemParams_portNum_get" "', argument " "1"" of type '" "SystemParams *""'"); 
+  }
+  arg1 = reinterpret_cast< SystemParams * >(argp1);
+  result = (int) ((arg1)->portNum);
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_SystemParams_work_end_ckpt_count_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   SystemParams *arg1 = (SystemParams *) 0 ;
@@ -6030,6 +6084,8 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"SystemParams_cache_line_size_get", _wrap_SystemParams_cache_line_size_get, METH_VARARGS, NULL},
 	 { (char *)"SystemParams_mem_mode_set", _wrap_SystemParams_mem_mode_set, METH_VARARGS, NULL},
 	 { (char *)"SystemParams_mem_mode_get", _wrap_SystemParams_mem_mode_get, METH_VARARGS, NULL},
+	 { (char *)"SystemParams_portNum_set", _wrap_SystemParams_portNum_set, METH_VARARGS, NULL},
+	 { (char *)"SystemParams_portNum_get", _wrap_SystemParams_portNum_get, METH_VARARGS, NULL},
 	 { (char *)"SystemParams_work_end_ckpt_count_set", _wrap_SystemParams_work_end_ckpt_count_set, METH_VARARGS, NULL},
 	 { (char *)"SystemParams_work_end_ckpt_count_get", _wrap_SystemParams_work_end_ckpt_count_get, METH_VARARGS, NULL},
 	 { (char *)"SystemParams_boot_osflags_set", _wrap_SystemParams_boot_osflags_set, METH_VARARGS, NULL},

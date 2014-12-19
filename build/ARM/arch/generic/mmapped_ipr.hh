@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/generic/mmapped_ipr.hh
+/home/ram/test/src/arch/generic/mmapped_ipr.hh

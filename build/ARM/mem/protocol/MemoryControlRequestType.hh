@@ -1,6 +1,6 @@
 /** \file MemoryControlRequestType.hh
  *
- * Auto generated C++ code started by /home/ram/gem5/src/mem/slicc/symbols/Type.py:474
+ * Auto generated C++ code started by /home/ram/test/src/mem/slicc/symbols/Type.py:474
  */
 
 #ifndef __MemoryControlRequestType_HH__

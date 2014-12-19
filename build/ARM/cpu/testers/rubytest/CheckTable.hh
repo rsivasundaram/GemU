@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/testers/rubytest/CheckTable.hh
+/home/ram/test/src/cpu/testers/rubytest/CheckTable.hh

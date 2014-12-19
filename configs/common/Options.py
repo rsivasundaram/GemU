@@ -236,6 +236,10 @@ def addFSOptions(parser):
                 action="store_true", help="Enable stats dump at context "\
                 "switches and dump tasks file (required for Streamline)")
 
+	parser.add_option("--port-number", action="store", type="int",
+		      default=0,
+		      help="Specify port for server greater than 1")
+
     # Benchmark options
     parser.add_option("--dual", action="store_true",
                       help="Simulate two systems attached with an ethernet link")

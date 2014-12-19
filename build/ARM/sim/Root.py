@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/Root.py
+/home/ram/test/src/sim/Root.py

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/pciconfigall.cc
+/home/ram/test/src/dev/pciconfigall.cc

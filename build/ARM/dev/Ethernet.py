@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/Ethernet.py
+/home/ram/test/src/dev/Ethernet.py

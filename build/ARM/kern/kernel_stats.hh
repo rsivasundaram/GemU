@@ -1,1 +1,1 @@
-/home/ram/gem5/src/kern/kernel_stats.hh
+/home/ram/test/src/kern/kernel_stats.hh

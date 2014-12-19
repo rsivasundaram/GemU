@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/system/Cache.py
+/home/ram/test/src/mem/ruby/system/Cache.py

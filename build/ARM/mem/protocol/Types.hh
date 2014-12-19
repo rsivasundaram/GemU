@@ -1,4 +1,4 @@
-/** Auto generated C++ code started by /home/ram/gem5/src/mem/slicc/symbols/SymbolTable.py:135 */
+/** Auto generated C++ code started by /home/ram/test/src/mem/slicc/symbols/SymbolTable.py:135 */
 #include "mem/ruby/slicc_interface/RubySlicc_includes.hh"
 #include "mem/protocol/MachineType.hh"
 #include "mem/protocol/Address.hh"

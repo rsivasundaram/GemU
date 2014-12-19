@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/ide_ctrl.cc
+/home/ram/test/src/dev/ide_ctrl.cc

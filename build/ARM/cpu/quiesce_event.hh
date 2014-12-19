@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/quiesce_event.hh
+/home/ram/test/src/cpu/quiesce_event.hh

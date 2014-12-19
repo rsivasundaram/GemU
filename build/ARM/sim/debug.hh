@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/debug.hh
+/home/ram/test/src/sim/debug.hh

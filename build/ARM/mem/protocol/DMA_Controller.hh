@@ -1,6 +1,6 @@
 /** \file DMA_Controller.hh
  *
- * Auto generated C++ code started by /home/ram/gem5/src/mem/slicc/symbols/StateMachine.py:233
+ * Auto generated C++ code started by /home/ram/test/src/mem/slicc/symbols/StateMachine.py:233
  * Created by slicc definition of Module "DMA Controller"
  */
 

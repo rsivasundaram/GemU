@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/etherlink.hh
+/home/ram/test/src/dev/etherlink.hh

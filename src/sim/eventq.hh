@@ -45,6 +45,11 @@
 #include <mutex>
 #include <string>
 
+#include <sys/types.h> 
+#include <sys/socket.h>
+#include <netinet/in.h>
+
+
 #include "base/flags.hh"
 #include "base/misc.hh"
 #include "base/types.hh"
@@ -53,6 +58,8 @@
 
 class EventQueue;       // forward declaration
 class BaseGlobalEvent;
+
+extern int portNumber;
 
 //! Simulation Quantum for multiple eventq simulation.
 //! The quantum value is the period length after which the queues

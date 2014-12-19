@@ -1,1 +1,1 @@
-/home/ram/gem5/src/unittest/stattest.i
+/home/ram/test/src/unittest/stattest.i

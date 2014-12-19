@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/isa_fake.cc
+/home/ram/test/src/dev/isa_fake.cc

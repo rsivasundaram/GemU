@@ -1,1 +1,1 @@
-/home/ram/gem5/src/python/m5/objects/__init__.py
+/home/ram/test/src/python/m5/objects/__init__.py

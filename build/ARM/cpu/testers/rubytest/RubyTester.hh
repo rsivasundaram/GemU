@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/testers/rubytest/RubyTester.hh
+/home/ram/test/src/cpu/testers/rubytest/RubyTester.hh

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/system/CacheMemory.cc
+/home/ram/test/src/mem/ruby/system/CacheMemory.cc

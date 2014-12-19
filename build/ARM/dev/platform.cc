@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/platform.cc
+/home/ram/test/src/dev/platform.cc

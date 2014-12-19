@@ -59,6 +59,7 @@
 
 using namespace ArmISA;
 using namespace Linux;
+int portNumber;
 
 LinuxArmSystem::LinuxArmSystem(Params *p)
     : ArmSystem(p),
@@ -78,7 +79,8 @@ LinuxArmSystem::LinuxArmSystem(Params *p)
         kernelOopsEvent = addKernelFuncEventOrPanic<PanicPCEvent>(
             "oops_exit", "Kernel oops in guest");
     }
-
+	
+    portNumber=p->portNum;
     // With ARM udelay() is #defined to __udelay
     // newer kernels use __loop_udelay and __loop_const_udelay symbols
     uDelaySkipEvent = addKernelFuncEvent<UDelayEvent>(

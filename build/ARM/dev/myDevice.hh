@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/myDevice.hh
+/home/ram/test/src/dev/myDevice.hh

@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/profile.hh
+/home/ram/test/src/cpu/profile.hh

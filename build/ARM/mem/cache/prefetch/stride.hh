@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/cache/prefetch/stride.hh
+/home/ram/test/src/mem/cache/prefetch/stride.hh

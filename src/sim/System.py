@@ -79,7 +79,7 @@ class System(MemObject):
         "exit simulation when work items end count value is reached")
     work_cpus_ckpt_count = Param.Counter(0,
         "create checkpoint when active cpu count value is reached")
-
+    portNum = Param.Int(1,"server port number")
     init_param = Param.UInt64(0, "numerical value to pass into simulator")
     boot_osflags = Param.String("a", "boot flags to pass to the kernel")
     kernel = Param.String("", "file that contains the kernel code")

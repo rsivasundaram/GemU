@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/Platform.py
+/home/ram/test/src/dev/Platform.py

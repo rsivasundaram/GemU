@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/disk_image.cc
+/home/ram/test/src/dev/disk_image.cc

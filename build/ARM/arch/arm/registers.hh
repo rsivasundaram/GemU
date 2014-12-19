@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/arm/registers.hh
+/home/ram/test/src/arch/arm/registers.hh

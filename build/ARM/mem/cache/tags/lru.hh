@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/cache/tags/lru.hh
+/home/ram/test/src/mem/cache/tags/lru.hh

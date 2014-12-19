@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/sinic.hh
+/home/ram/test/src/dev/sinic.hh

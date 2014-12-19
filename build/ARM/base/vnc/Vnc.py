@@ -1,1 +1,1 @@
-/home/ram/gem5/src/base/vnc/Vnc.py
+/home/ram/test/src/base/vnc/Vnc.py

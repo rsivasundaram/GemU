@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/BadDevice.py
+/home/ram/test/src/dev/BadDevice.py

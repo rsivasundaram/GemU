@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/profiler/StoreTrace.cc
+/home/ram/test/src/mem/ruby/profiler/StoreTrace.cc

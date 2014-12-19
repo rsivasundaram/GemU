@@ -137,6 +137,9 @@ test_sys.cpu_clk_domain = SrcClockDomain(clock = options.cpu_clock,
 if options.kernel is not None:
     test_sys.kernel = binary(options.kernel)
 
+if options.port_number>1:
+    test_sys.portNum=options.port_number
+
 if options.script is not None:
     test_sys.readfile = options.script
 

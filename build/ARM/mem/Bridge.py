@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/Bridge.py
+/home/ram/test/src/mem/Bridge.py

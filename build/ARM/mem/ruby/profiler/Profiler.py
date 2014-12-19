@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/ruby/profiler/Profiler.py
+/home/ram/test/src/mem/ruby/profiler/Profiler.py

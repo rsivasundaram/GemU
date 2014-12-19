@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/ps2.hh
+/home/ram/test/src/dev/ps2.hh

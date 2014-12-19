@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/sparc/process.hh
+/home/ram/test/src/arch/sparc/process.hh

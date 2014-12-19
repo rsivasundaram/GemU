@@ -1,1 +1,1 @@
-/home/ram/gem5/src/python/m5/main.py
+/home/ram/test/src/python/m5/main.py

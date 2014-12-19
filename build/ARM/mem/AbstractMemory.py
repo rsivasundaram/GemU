@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/AbstractMemory.py
+/home/ram/test/src/mem/AbstractMemory.py

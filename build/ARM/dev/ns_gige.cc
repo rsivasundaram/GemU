@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/ns_gige.cc
+/home/ram/test/src/dev/ns_gige.cc

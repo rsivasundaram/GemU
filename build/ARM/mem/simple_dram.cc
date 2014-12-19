@@ -1,1 +1,1 @@
-/home/ram/gem5/src/mem/simple_dram.cc
+/home/ram/test/src/mem/simple_dram.cc

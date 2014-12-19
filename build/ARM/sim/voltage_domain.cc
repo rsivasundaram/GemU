@@ -1,1 +1,1 @@
-/home/ram/gem5/src/sim/voltage_domain.cc
+/home/ram/test/src/sim/voltage_domain.cc

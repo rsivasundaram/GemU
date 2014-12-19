@@ -1,1 +1,1 @@
-/home/ram/gem5/src/cpu/reg_class.hh
+/home/ram/test/src/cpu/reg_class.hh

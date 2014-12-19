@@ -1,1 +1,1 @@
-/home/ram/gem5/src/python/swig/inet.i
+/home/ram/test/src/python/swig/inet.i

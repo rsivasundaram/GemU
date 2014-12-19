@@ -229,6 +229,8 @@ class System : public MemObject
     /** Entry point in the kernel to start at */
     Addr kernelEntry;
 
+    int portNum;
+
     /** Mask that should be anded for binary/symbol loading.
      * This allows one two different OS requirements for the same ISA to be
      * handled.  Some OSes are compiled for a virtual address and need to be

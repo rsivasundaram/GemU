@@ -1,1 +1,1 @@
-/home/ram/gem5/src/python/swig/stats.i
+/home/ram/test/src/python/swig/stats.i

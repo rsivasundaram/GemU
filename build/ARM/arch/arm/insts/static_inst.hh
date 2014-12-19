@@ -1,1 +1,1 @@
-/home/ram/gem5/src/arch/arm/insts/static_inst.hh
+/home/ram/test/src/arch/arm/insts/static_inst.hh

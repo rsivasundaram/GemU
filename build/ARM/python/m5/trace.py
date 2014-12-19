@@ -1,1 +1,1 @@
-/home/ram/gem5/src/python/m5/trace.py
+/home/ram/test/src/python/m5/trace.py

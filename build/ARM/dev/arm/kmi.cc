@@ -1,1 +1,1 @@
-/home/ram/gem5/src/dev/arm/kmi.cc
+/home/ram/test/src/dev/arm/kmi.cc
