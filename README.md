@@ -46,5 +46,8 @@ To recieve the value of the command you input, enter ```cat /dev/chdev```
 **Fault Injection:**
 To see an example of a program utilizing the fault injection, look at faults/test.cc
 
+**Port Functionality**
+To run the Gem5 process as a server, specify a port number using the --port-number parameter. If no parameter is specified, it will run normally. To connect the sample client program to it, run client.py and specify the same port-number as a parameter. Here in the client.py file, you can specify how long you want gem5 to take before it processes the next cpu cycle (how much time it sleeps before sending the next byte).
+
 For additional information about GemU, check out: 
   https://drive.google.com/file/d/0B1fHBX8DZ3PZV0pmbXVmMjQzUVk/view?usp=sharing
