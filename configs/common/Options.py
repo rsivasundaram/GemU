@@ -238,7 +238,7 @@ def addFSOptions(parser):
 
 	parser.add_option("--port-number", action="store", type="int",
 		      default=0,
-		      help="Specify port for server greater than 1")
+		      help="Specify port for server greater than 3000")
 
     # Benchmark options
     parser.add_option("--dual", action="store_true",

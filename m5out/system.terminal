@@ -1,20 +1,0 @@
-[    0.000000] Linux version 2.6.38.1-gem5 (ram@Ram) (gcc version 4.3.2 (crosstool-NG 1.19.0) ) #5 SMP Thu Sep 18 14:20:25 PDT 2014
-[    0.000000] CPU: ARMv7 Processor [350fc000] revision 0 (ARMv7), cr=10c53c7f
-[    0.000000] CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
-[    0.000000] Machine: ARM-RealView PBX
-[    0.000000] Ignoring unrecognised tag 0x00000000
-[    0.000000] bootconsole [earlycon0] enabled
-[    0.000000] Memory policy: ECC disabled, Data cache writealloc
-[    0.000000] On node 0 totalpages: 65536
-[    0.000000]   DMA zone: 512 pages used for memmap
-[    0.000000]   DMA zone: 0 pages reserved
-[    0.000000]   DMA zone: 65024 pages, LIFO batch:15
-[    0.000000] PERCPU: Embedded 7 pages/cpu @c053c000 s6272 r8192 d14208 u32768
-[    0.000000] pcpu-alloc: s6272 r8192 d14208 u32768 alloc=8*4096
-[    0.000000] pcpu-alloc: [0] 0 
-[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
-[    0.000000] Kernel command line: earlyprintk console=ttyAMA0 lpj=19988480 norandmaps rw loglevel=8 mem=256MB root=/dev/sda1
-[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
-[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
-[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
-[ 
