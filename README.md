@@ -22,7 +22,7 @@ Once you have a disk image, mount it (see https://www.youtube.com/watch?v=OXH1ox
   
   Also, if you would like to utilize fault injection, copy the files located in the faults directory into whichever directory the program you are running is in. Make sure to ```#include "gemu_faults.hh"``` and compile the program with ```gemu_faults.cc```.
 
-To run:```build/ARM/gem5.opt configs/example/fs.py --disk-image=/path/to/image --kernel=kernel/vmlinux --mem-size=256MB --script=configs/boot/temp.rcS```
+To run:```build/ARM/gem5.opt configs/example/fs.py --disk-image=/path/to/image --kernel=$(pwd)/kernel/vmlinux --mem-size=256MB --script=configs/boot/temp.rcS```
 
 To connect to the simualtion, see: http://www.m5sim.org/M5term
 
