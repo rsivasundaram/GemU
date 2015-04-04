@@ -1,1 +1,0 @@
-/home/ram/test/src/sim/clocked_object.hh

@@ -1,1 +1,0 @@
-/home/ram/test/src/arch/alpha/osfpal.hh

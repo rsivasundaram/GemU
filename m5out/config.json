@@ -70,7 +70,7 @@
             "type": "NoncoherentBus", 
             "use_default_range": false
         }, 
-        "portNum": 3100, 
+        "portNum": 1, 
         "membus": {
             "slave": {
                 "peer": [

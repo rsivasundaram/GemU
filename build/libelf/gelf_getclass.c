@@ -1,1 +1,0 @@
-/home/ram/test/ext/libelf/gelf_getclass.c

@@ -1,1 +1,0 @@
-/home/ram/test/src/mem/ruby/network/garnet/fixed-pipeline/Router_d.hh

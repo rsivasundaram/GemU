@@ -1,1 +1,0 @@
-/home/ram/test/src/dev/disk_image.cc

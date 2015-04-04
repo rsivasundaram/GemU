@@ -43,6 +43,7 @@ if env['TARGET_ISA'] == 'arm':
     SimObject('Gic.py')
     SimObject('RealView.py')
 
+   # Source('count.cc')
     Source('a9scu.cc')
     Source('amba_device.cc')
     Source('amba_fake.cc')

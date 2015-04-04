@@ -1,6 +1,6 @@
 #include "dev/myDevice.hh"
 
-myDevice::myDevice(const Params *p, Addr pio_size): BasicPioDevice(p, pioSize), devname(p->devicename)
+myDevice::myDevice(const Params *p, Addr pio_size): BasicPioDevice(p, pio_size), devname(p->devicename)
 	{
 		
 		//int *ptr;
@@ -9,4 +9,8 @@ myDevice::myDevice(const Params *p, Addr pio_size): BasicPioDevice(p, pioSize), 
 
 
 
-
+myDevice *
+myDeviceParams::create()
+{
+    return new myDevice(this);
+}

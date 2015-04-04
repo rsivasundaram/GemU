@@ -51,7 +51,7 @@ from Terminal import Terminal
 from Uart import Uart
 from SimpleMemory import SimpleMemory
 from Gic import *
-from myDevice import myDevice
+#from myDevice import myDevice
 
 
 class count(myDevice):
@@ -59,7 +59,7 @@ class count(myDevice):
     cxx_header='dev/arm/count.hh'
     devicename=Param.String("My device is being accessed")
     platform = Param.Platform(Parent.any, "Platform this device is part of.")
-    terminal = Param.Terminal(Parent.any, "The terminal")
+    
 
 class AmbaPioDevice(BasicPioDevice):
     type = 'AmbaPioDevice'

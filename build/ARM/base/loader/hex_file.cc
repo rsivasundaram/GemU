@@ -1,1 +1,0 @@
-/home/ram/test/src/base/loader/hex_file.cc

@@ -1,1 +1,0 @@
-/home/ram/test/src/sim/sim_object.hh

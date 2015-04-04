@@ -1,1 +1,0 @@
-/home/ram/test/ext/libfdt/fdt_empty_tree.c

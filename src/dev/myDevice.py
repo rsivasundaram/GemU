@@ -5,6 +5,7 @@ from Device import BasicPioDevice
 class myDevice(BasicPioDevice):
 	type= 'myDevice'
 	cxx_header = "dev/myDevice.hh"
+	abstract = True
 	devicename=Param.String("My device is being accessed")
 	platform = Param.Platform(Parent.any, "Platform this device is part of.")
         terminal = Param.Terminal(Parent.any, "The terminal")

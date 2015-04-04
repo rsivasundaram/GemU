@@ -1,1 +1,0 @@
-/home/ram/test/src/mem/ruby/network/fault_model/FaultModel.cc

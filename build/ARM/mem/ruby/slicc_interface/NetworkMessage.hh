@@ -1,1 +1,0 @@
-/home/ram/test/src/mem/ruby/slicc_interface/NetworkMessage.hh

@@ -1,1 +1,0 @@
-/home/ram/test/src/dev/alpha/tsunamireg.h

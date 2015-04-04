@@ -11,10 +11,10 @@ class myDevice : public BasicPioDevice
 	private:
 		std::string devname;
 	public:
-		typedef myDeviceParams Params;
+		//typedef myDeviceParams Params;
 		myDevice(const Params *p, Addr pio_size);
 	
-	protected:
+	
 		const Params *
 		params() const
 		{

@@ -1,1 +1,0 @@
-/home/ram/test/src/cpu/quiesce_event.cc
